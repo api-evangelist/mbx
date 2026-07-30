@@ -1,8 +1,28 @@
 aid: mbx
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mbx.png
 name: MBX
-description: 'MBX is a company surfaced as a portfolio company of cowboy-ventures, y-combinator and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  MBX (formerly Memebox) is a global, multi-brand beauty and personal care
+  company founded in 2012 and part of Y Combinator's Winter 2014 batch.
+  Headquartered in San Francisco with operations in Seoul, Shanghai, and Taipei,
+  MBX uses data-driven consumer insights and Korean beauty innovation to build
+  and scale a portfolio of cosmetics brands — including Kaja, I Dew Care, Pony
+  Effect, I'm Meme, and Nooni — sold through retail partners such as Sephora and
+  Ulta. The company has raised over $190M from investors including Cowboy
+  Ventures, Y Combinator, Formation 8, Goodwater Capital, Johnson & Johnson, and
+  Pear VC. MBX operates as a direct-to-consumer and wholesale CPG business; it
+  does not publish a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/mbx/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +31,30 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-yc-batch: W2014
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Beauty
+- Personal Care
+- Cosmetics
+- Consumer Packaged Goods
+- Korean Beauty
+- Ecommerce
+- Retail
 apis: []
+common:
+- type: Website
+  url: https://us.memebox.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
